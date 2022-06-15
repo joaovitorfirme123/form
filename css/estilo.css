@@ -1,0 +1,57 @@
+body {
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+#banco-digital {
+    font-size: 3rem;
+    background-color: dodgerblue;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    margin-left: 40%;
+}
+#login-area{
+    margin-left: 37%;
+    border-radius: 15px;
+    border: rgb(221, 221, 221) solid 3px;
+    background-color: rgb(84, 104, 122);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#login-area .login {
+    color: rgb(255, 255, 255);
+    background-color: dodgerblue;
+    display: inline-block;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+}
+.dados-login {
+    text-decoration: underline;
+}
+.informacoes {
+    border-radius: 15px;
+}
+#botao {
+    background-color: dodgerblue;
+    font-size: 20px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+#botao:hover {
+    background-color: rgb(86, 145, 182);
+    font-size: 20px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+#sem-cadastro {
+    text-align: center;
+}
+
+
